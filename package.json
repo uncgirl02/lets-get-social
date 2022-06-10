@@ -1,6 +1,25 @@
 {
   "dependencies": {
     "express": "^4.18.1",
-    "mongoose": "^6.3.6"
-  }
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "lets-get-social",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncgirl02/lets-get-social.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uncgirl02/lets-get-social/issues"
+  },
+  "homepage": "https://github.com/uncgirl02/lets-get-social#readme"
 }
