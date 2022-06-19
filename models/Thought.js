@@ -1,4 +1,4 @@
-// Require Mongoos and Moment
+// Require Mongoose and Moment
 const { Schema, model, Types } = require('mongoose');
 const moment = require('moment');
 
