@@ -11,7 +11,7 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/lets_get_social',
+  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/lets_get_social',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -20,4 +20,4 @@ mongoose.connect(
 
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
+app.listen(PORT, () => console.log(`App running on port ${PORT}!`));
