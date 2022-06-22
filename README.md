@@ -24,7 +24,15 @@ Run `npm install` to install the required packages.
 
 Run "node server.js" from the command prompt and use Insomnia or similar program to test the API routes.
 
-![API VIDEO WALKTHROUGH]
+
+
+https://user-images.githubusercontent.com/96963668/175116517-0f2956fd-3443-40eb-aa17-703314ecc0a1.mp4
+
+
+
+https://user-images.githubusercontent.com/96963668/175116545-d8a1a9ce-7c0f-4a74-898b-97adaf7a7ae4.mp4
+
+
 
 
 ## License
